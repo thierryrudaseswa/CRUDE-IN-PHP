@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F4;
+  }
+
+  form {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6.5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border:solid #dc0dd1;
+  }
+
+  legend {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"]{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+input[type="submit"] {
+    background-color: #3411d1;
+    color: #eed3d3;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #f016e1;
+  }
